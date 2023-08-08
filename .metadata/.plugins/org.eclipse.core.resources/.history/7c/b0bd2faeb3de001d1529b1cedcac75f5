@@ -1,0 +1,17 @@
+package uniq;
+
+public class Isolacestriangle {
+
+	public static void main(String[] args) {
+		
+		int a=20;
+		int d=25;
+		int perimeter=2*a+d;
+		double c=0.5;
+		double area=c*(a*a);
+		System.out.println("isolacestriangleperimeter="+perimeter);
+		System.out.println("isolacetrianglearea="+area);
+
+	}
+
+}

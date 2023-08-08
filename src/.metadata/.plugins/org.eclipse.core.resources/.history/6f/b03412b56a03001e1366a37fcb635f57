@@ -1,0 +1,25 @@
+package hari;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+//import java.util.List;
+
+public class Collections {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<String>A=new ArrayList<String>();
+		A.add("raju");
+		A.add("hari");
+		A.add("jeeva");
+		Iterator itr=a.iterator();
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+		//get(itr.Index);
+		//set(Index,value);
+		
+
+	}
+
+}

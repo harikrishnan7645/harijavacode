@@ -1,0 +1,29 @@
+package multithreading1;
+
+class Hari extends Thread{
+	 public void run(){
+		 for(int i=0;i<=10;i++) {
+			 System.out.println("Daemonthread"+i);
+		 }
+	 }
+	 
+}                                        //daemonthread
+ class Multi {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	Hari t1=new Hari();
+		//Hari t2=new Hari();
+		t2.setDaemon(true);               
+		for(int i=0;i<=5;i++) {
+			System.out.println(i);
+		
+		}
+		t1.start();
+		//t2.start();
+		
+
+	}
+
+
+
+}

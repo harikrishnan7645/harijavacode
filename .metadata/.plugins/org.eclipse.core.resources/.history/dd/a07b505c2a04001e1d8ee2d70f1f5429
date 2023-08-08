@@ -1,0 +1,20 @@
+package innerclass;
+
+import java.util.LinkedList;
+
+public class Linkedlist {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LinkedList<String>al=new Linkedlist<String>();
+		al.add("ravi");
+		al.add("vijay");
+		al.add("ajay");
+		iterator<String>itr=al.iterator();
+		while(itr.hashNext()) {
+			System.out.println(itr.next());
+		}
+
+	}
+
+}

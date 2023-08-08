@@ -1,0 +1,21 @@
+package innerclass;
+
+import java.util.Iterator;
+import java.util.Vector;
+
+public class TestCollection3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Vector<String>v=new Vector<String>();
+		v.add("ayush");
+		v.add("Amil");
+		v.add("garima");
+		Iterator<String>itr=v.iterator();
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+
+	}
+
+}

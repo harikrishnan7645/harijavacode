@@ -1,0 +1,17 @@
+package uniqtask;
+
+public class Set {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Set<String> ob=new Set<String>();
+		ob.add("hari");
+		ob.add("krishnan");
+		ob.add("siva");
+		ob.add("meganathan");
+		ob.addAll(ob);
+		System.out.println(ob+" ");
+
+	}
+
+}

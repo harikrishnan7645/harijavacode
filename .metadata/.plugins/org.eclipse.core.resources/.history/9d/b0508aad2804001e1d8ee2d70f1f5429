@@ -1,0 +1,11 @@
+package innerclass;
+
+public class TestjavaCollection  {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+
+	}
+
+}

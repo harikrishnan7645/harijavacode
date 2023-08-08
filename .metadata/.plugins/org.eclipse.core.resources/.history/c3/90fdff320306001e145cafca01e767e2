@@ -1,0 +1,28 @@
+package uniqtask;
+
+public class CompileTime {
+    String name;
+	int id;
+	
+	static void name1(String name ,int id) {
+		System.out.println(name);
+		
+	}
+	static void name1(String name) {
+		System.out.println(name);
+		
+	}
+}
+	class Gear{
+		
+	public static void main(String[] args) {
+		
+		// TODO Auto-generated method stub
+		CompileTime.name1("hari");
+		CompileTime.name1("siva",11);
+		
+
+	}
+
+}
+

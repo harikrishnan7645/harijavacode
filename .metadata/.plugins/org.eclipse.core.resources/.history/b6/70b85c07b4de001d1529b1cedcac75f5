@@ -1,0 +1,17 @@
+package uniq;
+
+public class Parallelogram {
+
+	public static void main(String[] args) {
+		
+		int a=20;
+		int b=30;
+		int h=15;
+		int perimeter=2*(a+b);
+		int area=a*h;
+		System.out.println("parallelogramperimeter=" +perimeter);
+		System.out.println("parallelogramarea=" +area);
+
+	}
+
+}
